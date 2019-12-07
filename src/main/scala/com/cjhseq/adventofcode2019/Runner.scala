@@ -10,6 +10,10 @@ object Runner extends App {
 
   val res = day match {
     case 1 => Day01.solve(inputs)
+    case 2 => Day02.solve(inputs)
+    case 3 => Day03.solve(inputs)
+    case 4 => Day04.solve(inputs)
+    case 5 => Day05.solve(inputs)
   }
 
   println(res)
