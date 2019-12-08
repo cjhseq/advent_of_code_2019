@@ -14,6 +14,7 @@ object Runner extends App {
     case 3 => Day03.solve(inputs)
     case 4 => Day04.solve(inputs)
     case 5 => Day05.solve(inputs)
+    case 6 => Day06.solve(inputs)
   }
 
   println(res)
